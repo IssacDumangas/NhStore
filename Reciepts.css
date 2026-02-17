@@ -1,0 +1,70 @@
+.container {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1620px !important;
+}
+.form-card {
+  padding: 10px;
+  height: auto;
+  width: 100%;
+  position: relative;
+}
+
+.section1 {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  padding: 10px 0px;
+  width: 100%;
+  overflow: auto;
+}
+
+.table-container {
+  height: auto;
+  overflow: auto;
+  padding: 10px;
+  max-height: 500px;
+}
+
+.table-container .form-control {
+  width: auto !important;
+}
+
+.addrowbtn {
+  width: 150px;
+  height: 35px;
+}
+.addreceiptbtn {
+  width: 150px;
+  height: 35px;
+}
+
+.section2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ui-autocomplete {
+  max-height: 200px; /* adjust height here */
+  overflow-y: auto; /* enable vertical scroll */
+  overflow-x: hidden; /* prevent horizontal scroll */
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* shadow */
+}
+
+#alertContainer {
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30%;
+  z-index: 10;
+}
+
+#alertContainer .alert {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
